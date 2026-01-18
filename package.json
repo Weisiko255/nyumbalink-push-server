@@ -1,11 +1,19 @@
 {
-  "name": "nyumbalink-push",
+  "name": "nyumbalink-push-server",
+  "version": "1.0.0",
+  "private": true,
   "type": "module",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "firebase-admin": "^12.6.0"
+    "firebase-admin": "^12.6.0",
+    "node-fetch": "^3.3.2"
   }
 }
