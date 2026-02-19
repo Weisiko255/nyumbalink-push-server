@@ -1,34 +1,46 @@
-# NyumbaLinkTZ – Property Listing App (Backend)
+# NyumbaLinkTZ – Real Estate Platform (Backend)
 
-NyumbaLinkTZ is a real estate mobile application built with React Native (Expo) and Firebase.  
-This repository contains the backend server logic and payment integration.
+NyumbaLinkTZ is a production-ready real estate mobile application built using React Native (Expo) and Firebase.
+
+This repository contains the backend logic and push server.
+
+---
 
 ## 🚀 Features
-- User authentication (Firebase Auth)
-- Property listing management
-- Premium listing system
-- Payment integration (Flutterwave)
-- Real-time chat (Firestore)
-- Admin verification system
-- Commission & CRM logic
+
+- Firebase Authentication
+- Firestore Database
+- Role-Based Access Control (Admin/User)
+- Property Listing Management
+- Premium Subscription Logic
+- Flutterwave Payment Integration
+- Real-time Chat System
+- Google Maps Integration
+- Push Notifications Server
+
+---
 
 ## 🛠 Tech Stack
+
 - Node.js
 - Express.js
-- Firebase (Auth + Firestore)
-- Flutterwave (Payments)
-- REST APIs
-
-## 📱 Mobile App
-The mobile app is built with:
-- React Native (Expo)
+- Firebase Admin SDK
+- Firestore
+- React Native (Frontend)
 - TypeScript
-- Firebase
-- Google Maps API
 
-## 📌 Status
-Project is 90% complete and currently in production-ready architecture phase.
+---
 
-## 👤 Author
+## 🔐 Security
+
+- Advanced Firestore Rules
+- Admin-only access control
+- Safe field validation
+- Follow system protection logic
+
+---
+
+## 📌 Author
+
 Silvester Nyamenga  
-Dar es Salaam, Tanzania
+React Native Developer
